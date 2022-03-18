@@ -45,10 +45,6 @@ __HELP__ = """
 
 
 
-            return
-        except:
-            return
-
 
 @app.on_message(filters.command(["mhelp", "mstart"]) & filters.group)
 @PermissionCheck
